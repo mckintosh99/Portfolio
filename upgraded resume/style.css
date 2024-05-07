@@ -1,0 +1,108 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "Photos Details";
+  }
+  
+  .Photos {
+    grid-area: Photos;
+    background-color: rgba(7, 72, 236, 0.538);
+  }
+  
+  .Details {
+    grid-area: Details;
+    background-color: white
+  }
+  
+  html,
+  body,
+  .container {
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+  }
+
+  .photo{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 51px;
+  height: 100px;
+  
+  }
+  
+  .pic{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+  }
+
+  .box{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 20px;
+    color: black;
+  }
+  
+  .broke{
+    width: 100px;
+  }
+
+  .skills{
+    padding-bottom: 0px;
+  }
+
+  .icon {
+    color: aliceblue;
+    margin: 10px;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+}
+
+.lists {
+    color: black;
+    text-align: left;
+    padding-bottom: 50px;
+    font-weight: bolder; }
+ .name{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 50px;
+ }
+
+ .profile > p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 3px;
+    color: black;
+ }
+
+ body > div > div.Details > hr{
+    width: 500px;
+    margin-top: 0px;
+ }
+
+ .Work{
+    text-align: center;
+    color: black;
+ }
+ .lists1{
+    color: white;
+    text-align: left;
+    padding-bottom: 50px;
+    font-weight: bolder; 
+ }
